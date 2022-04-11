@@ -1,4 +1,15 @@
+
 nav {
     background-color: #000;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+nav > .logo img {
+    width: 300px;
+}
+
+nav > .links-wrapper {
     display: flex;
+    flex-direction: column;
 }
