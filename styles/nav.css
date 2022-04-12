@@ -5,11 +5,36 @@ nav {
     grid-template-columns: 1fr 1fr 1fr;
 }
 
-nav > .logo img {
-    width: 300px;
+.gld {
+    color: gold;
 }
 
-nav > .links-wrapper {
+.lt-gry {
+    color: #A6A5A1;
+}
+
+.grn {
+    color: #4AC877;
+}
+
+nav a{
+    color: #fff;
+    text-decoration: none;
+}
+
+nav > .logo img {
+    width: 300px;
+    margin: 10px;
+}
+
+nav > .nav-btns {
+    color: #fff;
     display: flex;
-    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+nav > .nav-btns > .btn {
+    background-color: grey;
 }
