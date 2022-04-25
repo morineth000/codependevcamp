@@ -3,6 +3,7 @@ nav {
     background-color: #000;
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
+    padding: 10px;
 }
 
 .gld {
@@ -25,6 +26,17 @@ nav a{
 nav > .logo img {
     width: 300px;
     margin: 10px;
+}
+
+nav > .logo {
+    align-self: center;
+}
+
+nav > .link-wrapper > .links {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -1em;
+    font-weight: bold;
 }
 
 nav > .nav-btns {
