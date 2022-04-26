@@ -50,8 +50,13 @@ nav > .nav-btns button {
     border: 1px solid;
     border-radius: 3px;
     padding: 20px;
+    font-weight: bold;
 }
 
 nav > .nav-btns > .nav-btn {
     margin: 0 .25em;
+}
+
+.bld{
+    font-weight: bold;
 }
