@@ -40,13 +40,18 @@ nav > .link-wrapper > .links {
 }
 
 nav > .nav-btns {
-    color: #fff;
     display: flex;
     justify-content: center;
     align-items: center;
-    justify-content: space-evenly;
 }
 
-nav > .nav-btns > .btn {
-    background-color: grey;
+nav > .nav-btns button {
+    background-color: rgb(53,56,63);
+    border: 1px solid;
+    border-radius: 3px;
+    padding: 20px;
+}
+
+nav > .nav-btns > .nav-btn {
+    margin: 0 .25em;
 }
