@@ -1,0 +1,18 @@
+footer {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+}
+
+.footer-section {
+    display: flex;
+    justify-content: center;
+    border: 1px white solid;
+    background-color: #35383f;
+    color: #fdfdfd;
+    padding: .5em .5em .5em .5em .5em;
+}
+
+.footer-section span {
+    font-weight: bolder;
+    font-size: x-large;
+}
