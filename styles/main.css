@@ -66,3 +66,9 @@ main p {
     background-color: rgba(0, 0, 0, 80%);
     cursor: pointer;
 }
+
+/* main */
+main {
+    display: block;
+    width: 100%;
+}
