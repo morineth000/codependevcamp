@@ -1,3 +1,68 @@
 body {
     margin: 0%;
+    background-color: #292c33;
+}
+
+.gld {
+    color: gold;
+}
+
+.lt-gry {
+    color: #767885;
+}
+
+.grn {
+    color: #4AC877;
+}
+
+main {
+    margin: 0 30px;
+    font-size: larger;
+    float: left;
+    width: 60%;
+}
+
+main h3 {
+    color: #b6b8ba;
+    font-weight: lighter;
+}
+
+main > h3 >.bld-white {
+    color: #eff1f1;
+    font-weight: bold;
+}
+
+main p {
+    color: #b6b8ba;
+}
+
+/* btns */
+.call-to-action-btns > .signup-btn {
+    padding: 10px;
+    color: black;
+    background-color: #4ace7a;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.call-to-action-btns > .signup-btn:hover {
+    background-color: mediumseagreen;
+    cursor: pointer;
+}
+
+.call-to-action-btns > .lrn-btn {
+    padding: 10px;
+    color: white;
+    background-color: black;
+    border-radius: 2px;
+    border: none;
+    font-weight: bold;
+    transition: all 0.5s;
+}
+
+.call-to-action-btns > .lrn-btn:hover {
+    background-color: rgba(0, 0, 0, 80%);
+    cursor: pointer;
 }

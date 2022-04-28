@@ -5,18 +5,6 @@ nav {
     padding: 10px;
 }
 
-.gld {
-    color: gold;
-}
-
-.lt-gry {
-    color: #A6A5A1;
-}
-
-.grn {
-    color: #4AC877;
-}
-
 nav a{
     color: #fff;
     text-decoration: none;
@@ -38,7 +26,7 @@ nav > .link-wrapper > .links {
     font-weight: bold;
 }
 
-nav > .nav-btns {
+/* nav > .nav-btns {
     display: flex;
     justify-content: center;
     align-items: center;
@@ -58,4 +46,33 @@ nav > .nav-btns > .nav-btn {
 
 .bld{
     font-weight: bold;
+} */
+
+nav > .nav-btns {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+
+nav > .nav-btns button {
+    width: 90px;
+    height: 60px;
+    border: none;
+    font-weight: bold;
+    color: rgb(220, 225, 227);
+    background-color: rgb(53,56,63);
+    border-radius: 4px;
+    transition: ease-out 0.3s;
+    font-size: medium;
+    outline: none;
+}
+
+nav > .nav-btns button:hover {
+    background-color: rgb(43, 36, 43);
+    cursor: pointer;
+}
+
+nav > .nav-btns > span {
+    font-size: 2em;
 }
