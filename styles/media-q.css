@@ -1,1 +1,26 @@
-@media all and ()
+@media screen and (max-width: 600px) {
+    /* nav */    
+    .link-wrapper, .nav-btns button, .nav-btns span{
+        display: none;
+    }
+
+    .toggle-button {
+        display: flex;
+    }
+
+    /* main */
+    main {
+        grid-template-columns: 1fr;
+        align-items: center;
+    }
+
+    .project {
+        padding: 1em;
+        font-size: 2em;
+    }
+
+    /* footer */
+    footer {
+        grid-template-columns: 1fr;
+    }
+}

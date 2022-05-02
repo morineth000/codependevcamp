@@ -11,7 +11,8 @@ nav a{
 }
 
 nav > .logo img {
-    width: 250px;
+    max-width: 250px;
+    height: auto;
 }
 
 nav > .logo {

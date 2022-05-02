@@ -10,6 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400&display=swap" rel="stylesheet">
 
+    <!-- JS -->
+    <script type="text/javascript" src="js/nav.js" defer></script>
+
+    <!-- CSS -->
     <link rel="stylesheet" href="styles/nav.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/main.css">
@@ -17,20 +21,26 @@
     <link rel="stylesheet" href="styles/media-q.css">
 </head>
 <body>
-    <nav>
+    <nav class="navbar">
         <div class="logo">
             <img src="media/images/codepen-logo.png" alt="CodePen Logo">
         </div>
+        <a href="#" class="toggle-button">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </a>
         <div class="link-wrapper">
             <div class="link-header">
                 <p class="gld">EXPLORE</p>
             </div>
             <div class="links">
-                <a href="#">Pens</a>
-                <a href="#">Projects</a>
-                <a href="#">Posts</a>
-                <a href="#">Collections</a>
-                <a href="#" class="lt-gry">Spark <i class="fa-solid fa-angle-down"></i></a>
+                <ul>
+                    <li><a href="#">Projects</a></li>
+                    <li><a href="#">Posts</a></li>
+                    <li><a href="#">Collections</a></li>
+                    <li><a href="#" class="lt-gry">Spark <i class="fa-solid fa-angle-down"></i></a></li>
+                </ul>
             </div>
         </div>
         <div class="nav-btns">
@@ -43,7 +53,7 @@
     <main>
         <div class="call-to-action">
             <h3>CodePen is a <span class="bld-white">social development enviroment</span> for front-end designers <br> and developers. &#128075;</h3>
-            <p>it's the best place to build and deploy a <br> website, show off your work, build test cases, <br> and find inspiration.</p>
+            <p>it's the best place to build and deploy a website, show off your work, build test cases, and find inspiration.</p>
             <div class="call-to-action-btns">
                 <button class="signup-btn">Sign Up for Free</button>
                 <button class="lrn-btn">Learn More</button>
