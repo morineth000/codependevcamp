@@ -19,10 +19,12 @@ nav > .logo {
     align-self: center;
 }
 
-nav > .link-wrapper > .links {
+nav > .link-wrapper > .links > ul {
     display: flex;
+    align-content: flex-start;
     justify-content: space-between;
-    margin-top: -1em;
+    margin-top: -.5em;
+    margin-left: -2.4em;
     font-weight: bold;
 }
 
