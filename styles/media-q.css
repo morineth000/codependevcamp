@@ -20,7 +20,19 @@
 /* media querys */
 @media (max-width: 600px) {
     /* nav */   
-    .link-header, .nav-btns button, .nav-btns span{
+    nav {
+        grid-template-columns: 1fr;
+    }
+
+    .lt-gry {
+        color: white;
+    }
+
+    .link-header, .nav-btns, .nav-btns span, .carrot{
+        display: none;
+    }
+
+    nav > .nav-btns {
         display: none;
     }
 
@@ -43,12 +55,22 @@
         width: 100%;
     }
 
-    .navbar-links li {
+    .navbar-links  ul li {
         text-align: center;
+        transition: all 0.75s;
     }
 
     .navbar-links li a {
         padding: .5rem 1rem;
+    }
+
+    .navbar-links ul li:hover {
+        background-color: lightgray;
+        cursor: pointer;
+    }
+
+    .navbar-links ul li a:hover {
+        color: black;
     }
 
     .navbar-links.active {
